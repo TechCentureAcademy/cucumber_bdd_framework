@@ -1,0 +1,135 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-27T17:57:04.478Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8739190677,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.before()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify User Able To Create A New Account in Application - First Time Run",
+        "description": "",
+        "id": "new-user---sign-up---test-feature;verify-user-able-to-create-a-new-account-in-application---first-time-run;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 257512155,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5613106461,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Select Chrome Browser To Launch \"http://www.mapsynq.com/\" For Test Execution",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://www.mapsynq.com/\"",
+                  "offset": 34
+                }
+              ],
+              "location": "UserSignUpSteps.i_login_to_application_with_in_browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2553911391,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Click On Register Link in Home Page",
+            "match": {
+              "location": "UserSignUpSteps.i_ClickOn_UserRegister_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69563830,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Verify New User Account Page Loaded Successfully",
+            "match": {
+              "location": "UserSignUpSteps.verify_UserAccountPageLoad()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 357426864,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Set Text \"Test\" in First Name Field; in Account Sign Up Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test\"",
+                  "offset": 11
+                }
+              ],
+              "location": "UserSignUpSteps.SetTextInFirstNameField(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 323678747,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Set Text \"Centure\" in Last Name Field; in Account Sign Up Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Centure\"",
+                  "offset": 11
+                }
+              ],
+              "location": "UserSignUpSteps.SetTextInLastNameField(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UI"
+          },
+          {
+            "name": "@Staging"
+          },
+          {
+            "name": "@Staging"
+          }
+        ]
+      }
+    ],
+    "name": "New User - Sign Up - Test Feature",
+    "description": "",
+    "id": "new-user---sign-up---test-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/UserSignUpTest.feature",
+    "tags": []
+  }
+]
